@@ -1,0 +1,115 @@
+.parent-search-no-recipes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.parent-search-showing-recipes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-search-no-recipes {
+  width: 70%;
+  background-color: rgba(255,255,255,.8);
+  padding: 5%;
+  margin: 0 auto;
+}
+
+.home-search-showing-recipes {
+  width: 70%;
+  background-color: rgba(255,255,255,.8);
+  padding: 5%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.user {
+  background-color: rgba(255,255,255,.8);
+  color: #6aa84fff;
+  padding: 5px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  font-family: 'Roboto', serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.user:hover {
+  background-color: rgba(255,255,255,1);
+}
+
+#choose-recipes {
+  text-align: center;
+  font-family: 'Rage Italic';
+  color: #ff2574;
+  font-size: 6em;
+  font-weight: lighter;
+  margin-bottom: 0;
+
+}
+
+.heart-tab {
+  width: 40px;
+  height: 50px;
+  border-radius: 5px 0px 0px 5px;
+  position: fixed;
+  right: 0;
+  top: 60px;
+  background-color: #ffab40;
+  box-shadow: 0 5px 15px rgba(145,92,182,.2);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*.heart-tab:hover {*/
+/*  background-color: #ed9e3bff;*/
+/*  box-shadow: 0 5px 15px rgba(145,92,182,.4);*/
+/*}*/
+
+/*#heart-fill {*/
+/*  fill: white;*/
+/*}*/
+
+.parent {
+  display: block;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.fav {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+
+h2 {
+  color: #ff2574;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+#editNote {
+  padding: 40px;
+  background-color: white;
+  width: 350px;
+  height: auto;
+  position: fixed;
+  top: 25%;
+  right: 25px;
+  z-index: 999999999999;
+  box-shadow: 0 5px 15px rgba(145,92,182,.4);
+}

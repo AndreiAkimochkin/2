@@ -1,0 +1,72 @@
+#waste-less {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: #ffab40;
+  font-size: 5em;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+#enter-ingredients {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  text-align: center;
+  color: #434343;
+}
+
+.ingredients {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.preferences {
+  width: 150px;
+  margin-right: 15px;
+}
+
+form {
+  text-align: center;
+}
+
+.btn {
+  background-color: #9261ff;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 100;
+  text-transform: uppercase;
+  box-shadow: 0 5px 15px rgba(145,92,182,.2);
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background-color: #ff2574;
+  box-shadow: 0 5px 15px rgba(145,92,182,.4);
+}
+
+.radio {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.preference-label {
+  color: #434343;
+  font-weight: lighter;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.preference-dropdowns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.empty-ingreds {
+  margin-top: 5px;
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}

@@ -1,0 +1,97 @@
+.recipe-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.recipe-card {
+  background-color: rgb(248,248,248);
+  margin: 15px;
+  width: 300px;
+  position: relative;
+  height: 95%;
+  box-shadow: 0 5px 15px rgba(145,92,182,.2);
+}
+
+.recipe-card img:hover {
+  opacity: .8;
+}
+
+.recipe-card img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.recipe-card-content {
+  padding: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: gray;
+}
+
+h2:hover {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: rgba(105,105,105, .5);
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+}
+
+svg {
+  position: absolute;
+  left: 6px;
+  top: 7px;
+}
+
+.heart {
+  fill: white;
+}
+
+.heart:hover {
+  fill: red;
+}
+
+.label-icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  height: 30px;
+}
+
+.label {
+  width: 30px;
+  margin-right: 4px;
+}
+.label:hover {
+  width: 35px;
+  opacity: 100%;
+}
+
+#recipe-name {
+  margin-top: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.duplicateError {
+  position: absolute;
+  top: 2%;
+  left: 32%;
+  width: 40%;
+  border: solid 1px #74b856ff;
+  background-color: rgba(116,184,86, .8);
+  border-radius: 5px;
+  padding: 12px 20px 12px 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}

@@ -1,0 +1,29 @@
+ <form >
+  <div id="search-ingredients-div" class="form-group">
+    <p id="enter-ingredients" for="">Find recipes for the showed ingredients:</p> <br>
+    <input id="search-input" [ngClass]="" class="form-control ingredients" type="text" placeholder="Ex: apples, beef, potatoes" #ingredients required>
+    <p *ngIf="showNoIngreds" class="empty-ingreds">Please enter at least 1 ingredient</p>
+  </div>
+
+  <div class="preference-dropdowns">
+    <div class = "diet">
+      <p class="preference-label">Food preferences</p>
+      <select #diet class="form-control preferences">
+        <option [value]="''"></option>
+        <option *ngFor="let diet of diets" [value]="diet.code">{{diet.name}} </option>
+      </select>
+    </div>
+
+    <div class = "health">
+      <p class="preference-label">Health preferences</p>
+      <select #health class="form-control preferences">
+        <option [value]="''"></option>
+        <option *ngFor="let health of healths" [value]="health.code">{{health.name}} </option>
+      </select>
+    </div>
+  </div>
+
+<p class="btn" (click)="createApiCode(ingredients.value, diet.value, health.value)">Find Recipes</p>
+</form>
+
+<app-recipe-list [recipes]="recipes"></app-recipe-list>
